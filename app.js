@@ -1,6 +1,10 @@
-// Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!".
-// Caso contrário, mostre "Boa semana!".
-/*
+/**
+ *  Pergunte ao usuário qual é o dia da semana.
+ *  Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!".
+ *  Caso contrário, mostre "Boa semana!".
+*/
+
+/**
     console.log('>>> Início do programa.');
 
     let dia = prompt('Informe qual o dia semana: ');
@@ -50,7 +54,8 @@ console.log('>>> ');
 *  Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!".
 *  Caso contrário, mostre "Tente novamente para ganhar.".
 */
-/*
+
+/**
 console.log('>>> Inicio do programa.');
 console.log('>>> ');
 console.log('>>> Aguardando entrada do usuário.');
@@ -78,6 +83,7 @@ console.log('>>> ');
  *
   */
 
+/**
 
 console.log('>>> Inicio do programa.');
 console.log('>>> ');
@@ -98,11 +104,32 @@ console.log('>>> ');
 console.log('>>> Fim do programa.');
 console.log('>>> ');
 
+*/
 
 //------------------------------------------------------------------------
 
-// Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
+/**
+ * Peça ao usuário para inserir seu nome usando prompt.
+ * Em seguida, mostre um alerta de boas-vindas usando esse nome.
+*/
 
+console.log('>>> Inicio do programa.');
+console.log('>>> ');
+console.log('>>> Aguardando entrada do usuário.');
+console.log('>>> ');
+
+let nome = prompt('Informe o seu nome: ')
+
+console.log('>>> Usuário informou nome.');
+console.log('>>> ');
+
+alert(`Nossas boas-vindas à você ${nome}.`);
+
+console.log('>>> Mensagem apresentada ao usuário.');
+console.log('>>> ');
+
+console.log('>>> Fim do programa.');
+console.log('>>> ');
 
 
 //------------------------------------------------------------------------

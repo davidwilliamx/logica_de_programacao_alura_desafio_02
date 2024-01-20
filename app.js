@@ -50,7 +50,7 @@ console.log('>>> ');
 *  Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!".
 *  Caso contrário, mostre "Tente novamente para ganhar.".
 */
-
+/*
 console.log('>>> Inicio do programa.');
 console.log('>>> ');
 console.log('>>> Aguardando entrada do usuário.');
@@ -68,11 +68,35 @@ if (pontos >= 100) {
 }
 console.log('>>> Fim do programa.');
 console.log('>>> ');
+*/
 
 //------------------------------------------------------------------------
 
-// Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+/**
+ * Crie uma mensagem que informa o usuário sobre o saldo da conta,
+ * usando uma template string para incluir o valor do saldo.
+ *
+  */
 
+
+console.log('>>> Inicio do programa.');
+console.log('>>> ');
+console.log('>>> Aguardando entrada do usuário.');
+console.log('>>> ');
+
+let nome = prompt('Informe seu nome: ');
+
+console.log('>>> Usuário informou o Nome.');
+console.log('>>> ');
+
+let saldo = 1000;
+
+alert(`${nome}, o saldo atual é de R$ ${saldo} reais.`);
+
+console.log('>>> Saldo do usuário informado.');
+console.log('>>> ');
+console.log('>>> Fim do programa.');
+console.log('>>> ');
 
 
 //------------------------------------------------------------------------

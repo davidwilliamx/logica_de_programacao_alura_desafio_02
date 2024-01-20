@@ -1,6 +1,6 @@
 // Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!".
 // Caso contrário, mostre "Boa semana!".
-
+/*
 console.log('>>> Início do programa.');
 
 let dia = prompt('Informe qual o dia semana: ');
@@ -12,8 +12,37 @@ if (dia === 'sabado' || dia === 'Sabado' || dia === 'sábado' || dia === 'Sábad
     alert('Boa semana!');
 }
 console.log('>>> Fim do programa.');
+*/
+//
 
-// Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
+/**
+ *  Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
+ *
+*/
+
+console.log('>>> Inicio do programa.')
+console.log('>>> ')
+console.log('>>> Aguardando entrada do usuário.');
+console.log('>>> ')
+let numero = Number(prompt('Informe um valor: '));
+
+console.log('>>> Verificando valor informado...');
+console.log('>>> ');
+
+if (numero < 0) {
+    alert(`${numero} é uma valor NEGATIVO`);
+    console.log('>>> Usuário informou um valor NEGATIVO.');
+    console.log('>>> ');
+} else {
+    alert(`${numero} é um valor POSITIVO.`);
+    console.log('>>> Usuário informou um valor POSITIVO.');
+    console.log('>>> ');
+}
+
+console.log('>>> Fim do programa.')
+console.log('>>> ');
+//
+
 
 // Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!".
 // Caso contrário, mostre "Tente novamente para ganhar.".

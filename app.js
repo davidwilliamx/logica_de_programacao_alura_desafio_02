@@ -113,6 +113,7 @@ console.log('>>> ');
  * Em seguida, mostre um alerta de boas-vindas usando esse nome.
 */
 
+/**
 console.log('>>> Inicio do programa.');
 console.log('>>> ');
 console.log('>>> Aguardando entrada do usuário.');
@@ -130,6 +131,6 @@ console.log('>>> ');
 
 console.log('>>> Fim do programa.');
 console.log('>>> ');
-
+*/
 
 //------------------------------------------------------------------------
